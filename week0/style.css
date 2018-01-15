@@ -1,0 +1,48 @@
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgb(76,175, 80);
+    padding-bottom: 20px ;
+    padding-top: 20px ;
+    margin: 0px;
+    font-size: 5em;
+    margin-bottom: 5px;
+}
+
+.info-personal{
+    padding-top: 20px;
+    float: left;
+    font-size: 40px;
+}
+
+.image-puppy{
+    float: right;
+    margin-right: 5%;
+    width:"400px";
+   
+}
+.clear-floats{
+    clear: both;
+}
+.biography{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-hobby-list{
+    font-size: 2em
+}
+.hobbies-list{
+    font-size: 2em;
+    
+}
+
+body{
+    margin: 0px;
+}
+
+.wrapper{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
