@@ -1,0 +1,25 @@
+MacBook-Air:~ Sarbast$ cd documents
+MacBook-Air:documents Sarbast$ mkdir commandlineHW
+MacBook-Air:documents Sarbast$ cd commandlineHW
+MacBook-Air:commandlineHW Sarbast$ touch blank
+MacBook-Air:commandlineHW Sarbast$ echo '"hello"
+> "hello"
+> "hello"
+> "hello"
+> "hello"' > greetings.txt
+MacBook-Air:commandlineHW Sarbast$ cat greetings.txt > 1.txt | greetings.txt > 2.txt | cat greetings.txt > 3.txt | greetings.txt > 4.txt | cat greetings.txt > 5.txt
+-bash: greetings.txt: command not found
+-bash: greetings.txt: command not found
+MacBook-Air:commandlineHW Sarbast$ cat greetings.txt > 1.txt | cat greetings.txt > 2.txt | cat greetings.txt > 3.txt | cat greetings.txt > 4.txt | cat greetings.txt > 5.txt
+MacBook-Air:commandlineHW Sarbast$ echo "cat" > pets.txt
+MacBook-Air:commandlineHW Sarbast$ echo "dog" >> pets.txt
+MacBook-Air:commandlineHW Sarbast$ echo "hamster" >> pets.txt
+MacBook-Air:commandlineHW Sarbast$ echo "cat" > commands.txt
+MacBook-Air:commandlineHW Sarbast$ echo "ls" >> commands.txt
+MacBook-Air:commandlineHW Sarbast$ echo "pwd" >> commands.txt
+MacBook-Air:commandlineHW Sarbast$ grep -E "cat|pwd|ls" pets.txt commands.txt > LovelyCommands.txt
+MacBook-Air:commandlineHW Sarbast$ cat LovelyCommands.txt
+pets.txt:cat
+commands.txt:cat
+commands.txt:ls
+commands.txt:pwd
