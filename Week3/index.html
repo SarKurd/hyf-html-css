@@ -8,6 +8,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -35,17 +37,32 @@
             <li class="right-nav"><a href="/">Jobs</a></li>
             <li class="right-nav"><a href="/">Contact</a></li>
         </ul>
-        <ul class="second-nav">
-            <li class="second-nav-left"><a href="">LATEST</a></li>
-            <li class="second-nav-left"><a href="">INSIGHTS</a></li>
-            <li class="second-nav-left"><a href="">DISTRACT</a></li>
-            <li class="second-nav-left"><a href="">FULL STACK</a></li>
         
-            <li class="second-nav-right"><a href=""><i class="fa fa-instagram" style="font-size:18px;color:rgb(163, 160, 160)"></i></a></li>
-            <li class="second-nav-right"><a href=""><i class="fa fa-youtube-play" style="font-size:18px;color:rgb(163, 160, 160)"></i></a></li>
-            <li class="second-nav-right"><a href=""><i class="fa fa-twitter" style="font-size:18px;color:rgb(163, 160, 160)"></i></a></li>
-            <li class="second-nav-right"><a href=""><i class="fa fa-facebook-square" style="font-size:18px;color:rgb(163, 160, 160)"></i></a></li>
-        </ul>
+        <div class="second-nav-container">
+            <ul class="second-nav">
+                <li class="second-nav-left"><a href="">LATEST</a></li>
+                <li class="second-nav-left"><a href="">INSIGHTS</a></li>
+                <li class="second-nav-left"><a href="">DISTRACT</a></li>
+                <li class="second-nav-left"><a href="">FULL STACK</a></li>
+            </ul>
+
+            <ul class="nav-icons">
+                <li class="search-icon" >
+                    <a href=""><i class="fa fa-search" style="font-size:36px;color:rgb(163, 160, 160)"></i></a>
+                </li>
+                <li class="nav-drawer">
+                    <a href=""><i class="fa fa-bars" style="font-size:36px;color:orangered"></i></a>
+                </li>
+            </ul>
+
+            <ul class="nav-follow">
+                <li><a href=""><i class="fa fa-instagram" style="font-size:18px;color:rgb(163, 160, 160)"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube-play" style="font-size:18px;color:rgb(163, 160, 160)"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter" style="font-size:18px;color:rgb(163, 160, 160)"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook-square" style="font-size:18px;color:rgb(163, 160, 160)"></i></a></li>
+            </ul>
+
+        </div>
     </nav>
 
     <a class="limitedtime-sale" href="">Our Early Bird sale ends today! Save 0.5ETH on your TNW conference pass → Act now</a>
@@ -54,7 +71,7 @@
         <article class="cover-story newest-story">
             <header class="story-detail">
                 <h5 class="section">WORLD</h5>
-                <h2 class="cover-title"> >Where are our cyber peacekeeping forces?</h2>
+                <h2 class="cover-title"> Where are our cyber peacekeeping forces?</h2>
                 <ul class="cover-detail">
                     <li>by The Conversation</li>
                     <li>6 hours ago</li>
@@ -66,7 +83,7 @@
         <article class="cover-story previous-story">
             <header class="story-detail">
                 <h5 class="section">WORLD</h5>
-                <h2 class="cover-title"> >A gif-filled guide to be an unusually good web developer</h2>
+                <h2 class="cover-title"> A gif-filled guide to be an unusually good web developer</h2>
                 <ul class="cover-detail">
                     <li>by The Conversation</li>
                     <li>10 hours ago</li>
@@ -78,7 +95,7 @@
         <article class="cover-story oldest-story">
             <header class="story-detail">
                 <h5 class="section">DISTRICT</h5>
-                <h2 class="cover-title"> >This 8-bit video game mix will have you sweatin' to the oldies</h2>
+                <h2 class="cover-title"> This 8-bit video game mix will have you sweatin' to the oldies</h2>
                 <ul class="cover-detail">
                     <li>by Bryan Clarck</li>
                     <li>19 hours ago</li>
@@ -95,77 +112,96 @@
 
         <ul class="news-container">
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/boQtr0J-1-540x270.jpg" alt="news cover">
-                    <h2>Attack three huge business problem areas in just 30 days</h2>
+                </a>
+
+                <a class="headline-news" target="_blank" href="/destination">
+                    Attack three huge business problem areas in just 30 days
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
             </li>
 
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/06/heart-love-730x387.jpg" alt="news cover">
-                    <h2>Dating app shows singles care less about Valentine's Day than ever</h2>
+                </a>
+                <a class="headline-news" target="_blank" href="/destination">
+                    Dating app shows singles care less about Valentine's Day than ever
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
             </li>
 
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/alex-jones-513x270.png" alt="news cover">
-                    <h2>Hold on to your tinfoil hat, Alex Jones. YouTube is coming for you.</h2>
+                </a>
+                <a class="headline-news" target="_blank" href="/destination">
+                    Hold on to your tinfoil hat, Alex Jones. YouTube is coming for you.
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
             </li>
 
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/bitcoin-farm-480x270.jpg" alt="news cover">
-                    <h2>A brief history of bitcoin mining hardware</h2>
+                </a>
+                <a class="headline-news" target="_blank" href="/destination">
+                    A brief history of bitcoin mining hardware
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
             </li>
 
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/Surface-Laptop-Windows-10-S-9-of-12-480x270.jpg" alt="news cover">
-                    <h2>You can now buy a Surface Laptop for $799</h2>
+                </a>
+                <a class="headline-news" target="_blank" href="/destination">
+                    You can now buy a Surface Laptop for $799
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
             </li>
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Mayan-Lidar-517x270.jpg" alt="news cover">
-                    <h2>Lasers reveal massive Mayan city buried for centuries</h2>
+                </a>
+                <a class="headline-news" target="_blank" href="/destination">
+                    Lasers reveal massive Mayan city buried for centuries
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
             </li>
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Amazon-Echo-new-530x270.jpg" alt="news cover">
-                    <h2>Here's why Alexa won't light up during Amazon's Super Bowl ad</h2>
+                </a>
+                <a class="headline-news" target="_blank" href="/destination">
+                    Here's why Alexa won't light up during Amazon's Super Bowl ad
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
             </li>
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Untitled-design-49-516x270.jpg" alt="news cover">
-                    <h2>TNW's Big Spam: Here’s a picture of Matthew McConaughey eating lobster on a hoverboard</h2>
+                </a>
+                <a class="headline-news" target="_blank" href="/destination">
+                    TNW's Big Spam: Here’s a picture of Matthew McConaughey eating lobster on a hoverboard
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
             </li>
             <li>
-                <a target "_blank" href="/destination">
+                <a class="image-news" target="_blank" href="/destination">
                     <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/free-rides-yo-2-516x270.png" alt="news cover">
-                    <h2>Free rides are the future of public transport, according to this German startup</h2>
+                </a>
+                <a class="headline-news" target="_blank" href="/destination">
+                    Free rides are the future of public transport, according to this German startup
                 </a>
                 <h5>by TNW deals . 8 hours ago</h5>
 
